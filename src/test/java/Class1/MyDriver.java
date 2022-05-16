@@ -14,7 +14,7 @@ public class MyDriver {
         driver.get(url);
 
         try {
-            Thread.sleep(3000);
+            Thread.sleep(5000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -27,5 +27,9 @@ public class MyDriver {
     public static WebDriver getDriver() {
         return driver;
     }
+
+
+
+
 }
 
