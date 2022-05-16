@@ -1,4 +1,4 @@
-package Pages.Darksky;
+package Class2;
 
 import Pages.Commands;
 import org.openqa.selenium.By;
@@ -23,6 +23,28 @@ public class LandingPage extends Commands {
     // method to check if Time Machine button is enabled
     public boolean isTimeMachineButtonEnabled() {
         return scrollToTimeMachineButton().isEnabled();
+    }
+
+    public void clickTimeMachineBtn2() {
+    }
+
+    public byte[] timeMachineDate() {
+        return new byte[0];
+    }
+
+    public byte[] localDate() {
+        return new byte[0];
+    }
+
+    public void clickTodayToggle() {
+    }
+
+    public byte[] getTodayTemp() {
+        return new byte[0];
+    }
+
+    public byte[] getTodayExtraTemp() {
+        return new byte[0];
     }
 
 
