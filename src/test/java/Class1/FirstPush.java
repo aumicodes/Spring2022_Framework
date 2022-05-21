@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class UseSelenium {
+public class FirstPush {
 
     @Test
     public void useSeleniumLib(){
@@ -12,8 +12,6 @@ public class UseSelenium {
 
         WebDriver driver = new ChromeDriver();
         driver.get("https://amazon.com/");
-
-        //Push
     }
 
 }
