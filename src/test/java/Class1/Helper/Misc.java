@@ -1,6 +1,8 @@
 package Helper;
 
-public class Misc {
+import Class1.Helper.Test;
+
+public class Misc extends Test {
 
     public static void pause(int seconds) {
         try {
