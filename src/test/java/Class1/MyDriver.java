@@ -8,7 +8,7 @@ public class MyDriver {
     private static WebDriver driver;
 
     public static void launchUrlOnNewWindow(String url) {
-        System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver2.exe");
         driver = new ChromeDriver();
 
         driver.get(url);
